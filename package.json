@@ -1,0 +1,14 @@
+{
+  "name": "tsqlproject",
+  "module": "server/server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run server/server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
